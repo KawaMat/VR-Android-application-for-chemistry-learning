@@ -1,10 +1,9 @@
 # VR-Android-application-for-chemistry-learning
 
-Celem było stworzenie aplikacji, która by obrazowała przebiegi reakcji chemicznych w zależności od równania reakcji, przy pomocy filmów wideo. Miałoby to uatrakcyjnić i ułatwić naukę chemii poprzez szybki i łatwy dostęp do zobrazowanych na filmach eksperymentów. Istnieje szereg reakcji o odmiennym przebiegu, na maturze czy egzaminach wymagany jest ich dokładny opis. Należy znać m.in. kolor i konsystencję produktu, wiedzieć czy reakcja przebiega gwałtownie czy powoli itp., zaproponowana przeze mnie aplikacja zdecydowanie ułatwiłaby naukę. 
+The goal was to create an application that would depict the course of chemical reactions depending on the reaction equation, using videos. This would make learning chemistry more attractive and easier by giving quick and easy access to the experiments shown in the videos. There are a number of reactions with different pathways, and a detailed description of them is required for high school graduation or exams. It is necessary to know, among others, the color and consistency of the product, whether the reaction proceeds rapidly or slowly, etc., the application proposed by me would definitely facilitate learning.
 
-Prace programistyczne zostały wykonane w środowisku Unity przy pomocy narzędzia rzeczywistości rozszerzonej o nazwie Vuforia. Praca ze wspomnianym narzędziem ułatwia implementację obiektów wirtualnych na rzeczywistym tle poprzez tworzenie bazy danych złożonej ze znaczników (targetów) i informacji o nich.
+The programming work was done in the Unity environment using an augmented reality tool called Vuforia. Working with the mentioned tool facilitates the implementation of virtual objects on a real background by creating a database composed of tags (targets) and information about them.
 
-Dostęp do filmu uzyskuje się poprzez najechanie kamerą smartphone-a na równanie reakcji w podręczniku do nauki chemii, przy którym widnieje oznaczenie o możliwej interakcji. Dodatkowo po najechaniu kamerą na pojedynczy związek chemiczny biorący udział w reakcji, otrzymujemy dodatkowe informacje o nim.
+The video is accessed by hovering the smartphone's camera over a reaction equation in a chemistry textbook with a marker for possible interaction. Additionally, if you move the camera over a single chemical compound involved in the reaction, you get additional information about it.
 
-
-Przeprowadzone testy pokazały skuteczne działanie aplikacji, spełniającej założone na wstępie cele. Targetami do rozpoznawania są wzory chemiczne co może stanowić problem w trakcie rozwijania aplikacji o dodatkowe związki chemiczne, ponieważ ich struktura może okazać się zbyt uproszczona.
+The tests have shown that the application works effectively and meets its initial objectives. The targets for recognition are chemical formulas, which may pose a problem when developing the application with additional chemical compounds, as their structure may be too simplified.
